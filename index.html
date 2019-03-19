@@ -6,50 +6,86 @@
     <link href="assets/stylesheets/stylesheet.css" rel="stylesheet">
   </head>
   <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
     <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)), url(assets/images/Japan-Kyoto-2017-82.jpg)";>
       <div class="home container">
-        <div id="Home">
+        <div id="home">
           <h1>Hello and Welcome! I am Anthony Bandolon</h1>
           <p>Please follow the path and learn more about me.</p>
           <p>Since you're here, I'm assuming you want to learn a little more about me to see if I'd be a good fit for your organization.</p>
-          <p>Should you have any further questions or would like to discuss a possible job opening with your organization, you may
-            <a href="#contact", class="btn btn-primary">Contact Me</a>.
+          <p>Should you have any further questions or would like to discuss a possible job opening with your organization, you may <a href="#contact", class="btn btn-primary">Contact Me</a>.
           </p>
         </div>
       </div>
     </div>
     <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)), url(assets/images/Japan-Kyoto-2017-82.jpg)";>
-      <div class="skills container">
-        <div id="Skills">
-          <div class="skill-item">
-            <ul>
-              <li><i class="far fa-gem"></i></li>
-              <li>Ruby</li>
-            </ul>
+      <h1>Mastered Skills</h1>
+      <div class="skills container list-inline">
+        <div id="skills">
+          <div class="row">
+            <div class="skill-item list-inline-item col-sm-3">
+              <ul>
+                <li><i class="far fa-gem"></i></li>
+                <li>Ruby</li>
+              </ul>
+            </div>
+            <div class="skill-item list-inline-item col-sm-3">
+              <ul>
+                <li><i class="fab fa-html5"></i></li>
+                <li>HTML</li>
+              </ul>
+            </div>
+            <div class="skill-item list-inline-item col-sm-3">
+              <ul>
+                <li><i class="fab fa-css3-alt"></i></li>
+                <li>CSS</li>
+              </ul>
+            </div>
+            <div class="skill-item list-inline-item col-sm-3">
+              <ul>
+                <li><i class="far fa-map"></i></li>
+                <li>Project Management</li>
+              </ul>
+            </div>
+            <div class="skill-item list-inline-item col-sm-3">
+              <ul>
+                <li><i class="fas fa-sitemap"></i></li>
+                <li>Team Management</li>
+              </ul>
+            </div>
+            <div class="skill-item list-inline-item col-sm-3">
+              <ul>
+                <li><i class="fab fa-git-square"></i></li>
+                <li>Git Flow Management</li>
+              </ul>
+            </div>
           </div>
-          <div class="skill-item">
-            <ul>
-              <li><i class="fab fa-html5"></i></li>
-              <li>HTML</li>
-            </ul>
-          </div>
-          <div class="skill-item">
-            <ul>
-              <li><i class="fab fa-css3-alt"></i></li>
-              <li>CSS</li>
-            </ul>
-          </div>
-          <div class="skill-item">
-            <ul>
-              <li><i class="far fa-map"></i></li>
-              <li>Project Management</li>
-            </ul>
-          </div>
-          <div class="skill-item">
-            <ul>
-              <li><i class="fas fa-sitemap"></i></li>
-              <li>Team Management</li>
-            </ul>
+        </div>
+      </div>
+    </div>
+    <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)), url(assets/images/Japan-Kyoto-2017-82.jpg)";>
+      <h1>Portfolio</h1>
+      <div class="portfolio container">
+        <div id="projects">
+          <div id="carousel-slides-only" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+            </div>
           </div>
         </div>
       </div>

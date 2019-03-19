@@ -6,11 +6,12 @@
 }
 
 .banner h1 {
-  margin: 0;
+  margin: 15px;
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 32px;
   font-weight: bold;
+  text-align: center;
 }
 
 .banner p {
@@ -18,4 +19,25 @@
   color: white;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+
+.skills {
+  width: auto;
+  color: white;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.skills ul {
+  list-style: none;
+  border: 1px solid darkred;
+  padding: 5px;
+  border-radius: 10px;
+  background: darkred;
+  font-size: xx-large;
+  width: 200px;
 }
