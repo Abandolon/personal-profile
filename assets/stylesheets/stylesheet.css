@@ -97,7 +97,40 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
-  height: 40vh;
+  height: 45vh;
+}
+
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-category a {
+  text-decoration: none;
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+  width: 85%;
+  background-color: rgba(0, 0, 0, .7);
+  border-radius: 5px;
+}
+
+.card-category a:hover {
+  color: skyblue;
+}
+
+#projects h1 {
+  padding: 25px;
 }
 
 // Smallest device
